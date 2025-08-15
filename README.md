@@ -523,7 +523,7 @@ Como podemos ver en los gráficos y como era de esperarse, los algoritmos de bú
 
 Por otra parte los algoritmos de búsqueda no informada, concretamente **Búsqueda en Profundidad** es el peor con diferencia en coste (aunque sus variantes iterativa y limitada mejoran este aspecto, sobre todo la iterativa) ya en espacios con gran profundidad se pierde fácilmente, en cambio **Primero en Anchura** da buenos resultados a pesar de no utilizar información del problema ya que es completa en espacios finitos, y en algunos casos óptima(algunos de sus resultados son comparables a **A Estrella y Primero Mejor.** 
 
-## **1.5 Conclusiones** {#1.5-conclusiones}
+## **1.5 Conclusiones**
 
 En este trabajo hemos podido ver cómo los algoritmos de búsqueda informada y no informada nos ayudan a resolver problemas que a priori pueden parecer complejos, primero hemos intentado resolver el problema a ciegas(búsqueda no informada) luego hemos recurrido a información específica del problema para llegar a la solución. Es curioso que en algunos casos el algoritmo de Búsqueda en Anchura tuviera los mismo resultados en coste que los algoritmos de búsqueda informada aunque haya sido consumiendo más recursos(nodos generados y expandidos). ***Personalmente en este trabajo he podido ver la importancia de entender y elegir bien las estructuras de datos con las que trabajamos.***
 
