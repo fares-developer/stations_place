@@ -25,7 +25,7 @@ Curso 2024/2025
     - [**1.3.6 A Estrella(AStar)**](#136-a-estrellaastar)
     - [**1.3.7 Organización Jerárquica de las Clases**](#137-organización-jerárquica-de-las-clases)
   - [**1.4 Evaluación Experimental**](#14-evaluación-experimental)
-  - [**1.5 Conclusiones** {#1.5-conclusiones}](#15-conclusiones-15-conclusiones)
+  - [**1.5 Conclusiones**](#15-conclusiones-15-conclusiones)
 - [**Práctica 2: Algoritmos Metaheurísticos**](#práctica-2-algoritmos-metaheurísticos)
   - [**2.1 Introducción**](#21-introducción)
   - [**2.2 Representación del Problema**](#22-representación-del-problema)
