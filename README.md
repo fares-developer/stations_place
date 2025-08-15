@@ -12,10 +12,6 @@ Curso 2024/2025
 
 
 # Contenidos
-- [**Memoria de Prácticas**](#memoria-de-prácticas)
-- [**Sistemas Inteligentes**](#sistemas-inteligentes)
-- [Fares Francisco Endong Eyenga](#fares-francisco-endong-eyenga)
-- [Contenidos](#contenidos)
 - [**Resumen**](#resumen)
 - [**Práctica 1: Búsqueda en Espacio de Estados**](#práctica-1-búsqueda-en-espacio-de-estados)
   - [**1.1 Introducción**](#11-introducción)
