@@ -1,7 +1,3 @@
-# 
-
-# 
-
 # **Memoria de Prácticas** 
 
 # **Sistemas Inteligentes**
@@ -14,87 +10,54 @@ Grupo A
 
 Curso 2024/2025
 
-# 
 
 # Contenidos
+- [**Memoria de Prácticas**](#memoria-de-prácticas)
+- [**Sistemas Inteligentes**](#sistemas-inteligentes)
+- [Fares Francisco Endong Eyenga](#fares-francisco-endong-eyenga)
+- [Contenidos](#contenidos)
+- [**Resumen**](#resumen)
+- [**Práctica 1: Búsqueda en Espacio de Estados**](#práctica-1-búsqueda-en-espacio-de-estados)
+  - [**1.1 Introducción**](#11-introducción)
+  - [**1.2 Representación del Problema**](#12-representación-del-problema)
+  - [**1.3 Estrategias de Búsqueda**](#13-estrategias-de-búsqueda)
+    - [**1.3.1 Búsqueda Primero en Anchura(BFS)**](#131-búsqueda-primero-en-anchurabfs)
+    - [**1.3.2 Búsqueda Primero en Profundidad(DFS)**](#132-búsqueda-primero-en-profundidaddfs)
+    - [**1.3.3 Búsqueda en Profundidad Limitada(LDFS)**](#133-búsqueda-en-profundidad-limitadaldfs)
+    - [**1.3.4 Búsqueda en Profundidad Iterativa(IDFS)**](#134-búsqueda-en-profundidad-iterativaidfs)
+    - [**1.3.5 Primero Mejor(BF)**](#135-primero-mejorbf)
+    - [**1.3.6 A Estrella(AStar)**](#136-a-estrellaastar)
+    - [**1.3.7 Organización Jerárquica de las Clases**](#137-organización-jerárquica-de-las-clases)
+  - [**1.4 Evaluación Experimental**](#14-evaluación-experimental)
+  - [**1.5 Conclusiones** {#1.5-conclusiones}](#15-conclusiones-15-conclusiones)
+- [**Práctica 2: Algoritmos Metaheurísticos**](#práctica-2-algoritmos-metaheurísticos)
+  - [**2.1 Introducción**](#21-introducción)
+  - [**2.2 Representación del Problema**](#22-representación-del-problema)
+    - [**2.2.1 Representación**](#221-representación)
+    - [**2.2.2 Clases Nuevas**](#222-clases-nuevas)
+  - [**2.3 Algoritmos Implementados**](#23-algoritmos-implementados)
+    - [**2.3.1 Cambios en A Estrella**](#231-cambios-en-a-estrella)
+    - [**2.3.2 Clase Búsqueda Metaheurística**](#232-clase-búsqueda-metaheurística)
+    - [**2.3.3 Búsqueda Aleatoria**](#233-búsqueda-aleatoria)
+    - [**2.3.4 Hill Climbing e ILS**](#234-hill-climbing-e-ils)
+    - [**2.3.5 Algoritmo Genético**](#235-algoritmo-genético)
+  - [**2.4 Evaluación Experimental**](#24-evaluación-experimental)
+  - [**2.5 Conclusiones**](#25-conclusiones)
+- [**Recursos**](#recursos)
 
-[**Resumen	2**](#resumen)
 
-[**Práctica 1: Búsqueda en Espacio de Estados	4**](#práctica-1:-búsqueda-en-espacio-de-estados)
-
-[1.1 Introducción	4](#1.1-introducción)
-
-[1.2 Representación del Problema	4](#1.2-representación-del-problema)
-
-[1.3 Estrategias de Búsqueda	7](#1.3-estrategias-de-búsqueda)
-
-[1.3.1 Búsqueda Primero en Anchura(BFS)	9](#1.3.1-búsqueda-primero-en-anchura\(bfs\))
-
-[1.3.2 Búsqueda Primero en Profundidad(DFS)	9](#1.3.2-búsqueda-primero-en-profundidad\(dfs\))
-
-[1.3.3 Búsqueda en Profundidad Limitada(LDFS)	10](#1.3.3-búsqueda-en-profundidad-limitada\(ldfs\))
-
-[1.3.4 Búsqueda en Profundidad Iterativa(IDFS)	10](#1.3.4-búsqueda-en-profundidad-iterativa\(idfs\))
-
-[1.3.5 Primero Mejor(BF)	10](#1.3.5-primero-mejor\(bf\))
-
-[1.3.6 A Estrella(AStar)	11](#1.3.6-a-estrella\(astar\))
-
-[1.3.7 Organización Jerárquica de las Clases	12](#1.3.7-organización-jerárquica-de-las-clases)
-
-[1.4 Evaluación Experimental	12](#1.4-evaluación-experimental)
-
-[1.5 Conclusiones	25](#1.5-conclusiones)
-
-[**Práctica 2: Algoritmos Metaheurísticos	26**](#práctica-2:-algoritmos-metaheurísticos)
-
-[2.1 Introducción	26](#2.1-introducción)
-
-[2.2 Representación del Problema	26](#2.2-representación-del-problema)
-
-[2.2.1 Representación	27](#2.2.1-representación)
-
-[2.2.2 Clases Nuevas	27](#2.2.2-clases-nuevas)
-
-[2.3 Algoritmos Implementados	29](#2.3-algoritmos-implementados)
-
-[2.3.1 Cambios en A Estrella	29](#2.3.1-cambios-en-a-estrella)
-
-[2.3.2 Clase Búsqueda Metaheurística	30](#2.3.2-clase-búsqueda-metaheurística)
-
-[2.3.3 Búsqueda Aleatoria	30](#2.3.3-búsqueda-aleatoria)
-
-[2.3.4 Hill Climbing e ILS	31](#2.3.4-hill-climbing-e-ils)
-
-[2.3.5 Algoritmo Genético	32](#2.3.5-algoritmo-genético)
-
-[2.4 Evaluación Experimental	34](#2.4-evaluación-experimental)
-
-[2.5 Conclusiones	38](#2.5-conclusiones)
-
-[**Recursos	39**](#recursos)
-
-# 
-
-# **Resumen** {#resumen}
+# **Resumen**
 
 En esta práctica el objetivo que perseguimos es optimizar el desplazamiento de un origen a un destino (Práctica 1\) en una ciudad ( en este caso Albacete) y el posicionamiento de estaciones de servicio en la misma (Práctica 1). Para conseguir esto nos hemos valido de algoritmos de búsqueda no informada como **Primero en Anchura(BFS), Primero en Profundidad(DFS), Profundidad Limitada(LDFS) y Profundidad Iterativa(IDFS);** también hemos utilizado algoritmos de búsqueda informada como **Primero Mejor(BF)** y **A Estrella(AStar);** y finalmente para las estaciones de servicio hemos utilizado algoritmos metaheurísticos como **Búsqueda por Escalada** y **Algoritmo Genético.** A la par con la implementación se han hecho numerosas pruebas para ver el funcionamiento de estos algoritmos y poder comprobar la calidad de los mismos.
 
-# 
 
-# 
+# **Práctica 1: Búsqueda en Espacio de Estados**
 
-# 
-
-# **Práctica 1: Búsqueda en Espacio de Estados** {#práctica-1:-búsqueda-en-espacio-de-estados}
-
-## 
-
-## **1.1 Introducción** {#1.1-introducción}
+## **1.1 Introducción**
 
 En esta práctica el objetivo es, a partir de un servicio de desplazamiento urbano para personas de movilidad reducida, desarrollar un algoritmo para un sistema de conducción inteligente que optimice el camino de un origen a un destino concreto de la ciudad. Para alcanzar este objetivo nos vamos a utilizar algoritmos de búsqueda no informada(Búsqueda en Anchura, Búsqueda en Profundidad, Búsqueda en Profundidad Limitada y Búsqueda en Profundidad Iterativa) y búsqueda heurística (Primero Mejor y A Estrella).
 
-## **1.2 Representación del Problema** {#1.2-representación-del-problema}
+## **1.2 Representación del Problema**
 
 Para poder implementar estos algoritmos nos hemos basado en las siguientes estructuras básicas:
 
@@ -143,7 +106,7 @@ Esta clase es la que utilizamos para construir la implementación de los algorit
 
 **Es importante tener en cuenta que para los estados y las acciones hemos utilizado diccionarios dado que el orden de complejidad para las búsquedas es mucho menor que si utilizamos listas por ejemplo, ya que los diccionarios son colecciones que usan tablas hash, no va a recorrer toda la estructura para encontrar algo.**
 
-## **1.3 Estrategias de Búsqueda** {#1.3-estrategias-de-búsqueda}
+## **1.3 Estrategias de Búsqueda**
 
 Para poder trabajar de forma ordenada y eficiente con los algoritmos de búsqueda se ha creado la clase abstracta ***Búsqueda*** donde encontramos toda la lógica común a todos los algoritmos de búsqueda con los que vamos a trabajar. Entre los atributos (que van a compartir todos los métodos que hereden de ella) de esta clase tenemos, **nodos generados, nodo expandidos, coste, tamaño de la solución(profundidad), problema, cerrados(estados visitados), frontera(lista de abiertos).**
 
@@ -155,33 +118,32 @@ En esta clase encontramos métodos como:
 
 **Cada algoritmo tendrá su forma de inicializar la frontera**(cuando se inicializa el objeto)**, insertar y extraer los nodos**. Y también tenemos las clases **Búsqueda no Informada** y **Búsqueda Informada** que son las clases abstractas base para cada tipo de algoritmo, se diferencian más que nada en que uno tiene el método **calcular\_heuristica()** y el otro no.
 
-### **1.3.1 Búsqueda Primero en Anchura(BFS)** {#1.3.1-búsqueda-primero-en-anchura(bfs)}
+### **1.3.1 Búsqueda Primero en Anchura(BFS)**
 
 En la implementación primero hemos utilizado la **frontera** como una **deque**, que es una estructura que nos permite añadir elementos al principio o al final de la misma, lo que nos permite seguir el orden **FIFO** requerido para este algoritmo, las **inserciones** se hacen al principio con ***popleft()*** y las **extracciones** siempre son de los nodos más antiguos añadidos, **ordenaremos los nodos según su identificador en orden creciente antes de insertarlos para garantizar una expansión de nodos más consistente.**
 
-### **1.3.2 Búsqueda Primero en Profundidad(DFS)** {#1.3.2-búsqueda-primero-en-profundidad(dfs)}
+### **1.3.2 Búsqueda Primero en Profundidad(DFS)**
 
 Es otro algoritmo de búsqueda no informada parecido al de búsqueda primero en profundidad pero en este primero se expande el nodo de mayor profundidad, también hemos utilizado **deque** al i**nicializar la frontera** para implementar el orden **LIFO** con **append()** para las inserciones al final y **pop()** para las extracciones también al final **,** antes de insertar los nodos los ordenamos según el identificador de estado.
 
-### **1.3.3 Búsqueda en Profundidad Limitada(LDFS)** {#1.3.3-búsqueda-en-profundidad-limitada(ldfs)}
+### **1.3.3 Búsqueda en Profundidad Limitada(LDFS)**
 
 Es una variante de la búsqueda en profundidad en la que hay una profundidad tope establecida. ***La única diferencia en nuestra implementación respecto a la búsqueda en profundidad original está en comprobar si el nodo no está en la lista de sucesores y que no se ha superado la profundidad máxima.*** La gestión de la frontera y de cerrados es igual que en el algoritmo original.
 
-### **1.3.4 Búsqueda en Profundidad Iterativa(IDFS)** {#1.3.4-búsqueda-en-profundidad-iterativa(idfs)}
-
+### **1.3.4 Búsqueda en Profundidad Iterativa(IDFS)**
 Es otra variante de la búsqueda en profundidad, en este caso lo que se hace es ir incrementando gradualmente la profundidad a medida que se exploran los niveles hasta encontrar el objetivo. **En nuestra implementación lo que hacemos es llamar a profundidad limitada de forma iterativa incrementando la profundidad en cada llamada.** Para ello para cada iteración creamos una instancia de la clase LDFS y llamamos a su método **buscar()** y luego obtenemos la solución así como sus atributos (nodos generados, nodos expandidos, tamaño de la solución y el coste) y se lo asignamos a nuestro objeto de la clase IDFS.
 
-### **1.3.5 Primero Mejor(BF)** {#1.3.5-primero-mejor(bf)}
+### **1.3.5 Primero Mejor(BF)**
 
 En nuestra implementación**, para inicializar la frontera hemos utilizado una cola de prioridad,** es una estructura que nos permite almacenar los nodos en función de una prioridad que en este caso es el valor de la función heurística, aquí el primero elemento es el nodo raíz con función heurística 0\. En esta clase **para insertar los nodos** primero calculamos la función heurística de cada uno con el método **calcular\_heuristica()** en el que nos valemos de la **distancia geodésica** para conseguirlo y luego calculamos el valor de la función para cada nodo.
 
 **Para la búsqueda** llamamos al método **buscar()** de la clase padre y **para la extracción** obtenemos el primero de los elementos de la cola de prioridad ya que está ordenado de forma creciente por el valor de la función heurística de cada nodo, de tal forma que el que menor valor tenga es el más cercano al objetivo.
 
-### **1.3.6 A Estrella(AStar)** {#1.3.6-a-estrella(astar)}
+### **1.3.6 A Estrella(AStar)**
 
 Es muy parecido al algoritmo primero mejor pero en este caso no sólo se tiene en cuenta el coste de llegar al final sino también el coste de llegar al nodo actual, ***la principal diferencia en nuestra implementación respecto a Primero Mejor es que en calcular\_heuristica() le sumamos a la distancia geodésica el coste de nuestro nodo,*** el resto de la implementación es igual que en Primero Mejor
 
-### **1.3.7 Organización Jerárquica de las Clases** {#1.3.7-organización-jerárquica-de-las-clases}
+### **1.3.7 Organización Jerárquica de las Clases**
 
 **Clase Nodo**
 
@@ -202,7 +164,7 @@ Es muy parecido al algoritmo primero mejor pero en este caso no sólo se tiene e
   * Primero Mejor (BF)  
   * A Estrella (AStar)
 
-## **1.4 Evaluación Experimental** {#1.4-evaluación-experimental}
+## **1.4 Evaluación Experimental**
 
 Para la evaluación experimental nos vamos a centrar en los problemas **huge** concretamente ***calle\_agustina\_aroca\_albacete*** y de ellos vamos a ir variando los estados origen y destino, para la semilla utilizaremos el 3\. 
 
@@ -565,17 +527,17 @@ Por otra parte los algoritmos de búsqueda no informada, concretamente **Búsque
 
 En este trabajo hemos podido ver cómo los algoritmos de búsqueda informada y no informada nos ayudan a resolver problemas que a priori pueden parecer complejos, primero hemos intentado resolver el problema a ciegas(búsqueda no informada) luego hemos recurrido a información específica del problema para llegar a la solución. Es curioso que en algunos casos el algoritmo de Búsqueda en Anchura tuviera los mismo resultados en coste que los algoritmos de búsqueda informada aunque haya sido consumiendo más recursos(nodos generados y expandidos). ***Personalmente en este trabajo he podido ver la importancia de entender y elegir bien las estructuras de datos con las que trabajamos.***
 
-# **Práctica 2: Algoritmos Metaheurísticos** {#práctica-2:-algoritmos-metaheurísticos}
+# **Práctica 2: Algoritmos Metaheurísticos** 
 
-## **2.1 Introducción** {#2.1-introducción}
+## **2.1 Introducción**
 
 En este trabajo nuestro objetivo es determinar las ubicaciones óptimas para estaciones de servicio de los vehículos autónomos en los mapas de la ciudad, tenemos una serie de puntos en la ciudad(candidatos en los que se pueden ubicar esas estaciones) y nos vamos a centrar en que los todos los ciudadanos estén lo más cerca posible de una estación de servicio. Para resolver este problema nos vamos a valer de algoritmos metaheurísticos(**Algoritmo Genético**, **Búsqueda Aleatoria**, **Búsqueda Por Escalada o Hill Climbing**, **Búsqueda Local Iterada(ILS)),** aplicaremos varios de ellos y compararemos los resultados para ver cuál es el que más nos conviene.
 
-## **2.2 Representación del Problema** {#2.2-representación-del-problema}
+## **2.2 Representación del Problema** 
 
 Para este problema nos valdremos de las estructuras de datos de la práctica anterior(**Estado, Nodo, Acción, Problema**). También se ha implementado una nueva clase llamada **CacheProblema** que será clave para la obtención rápida de los resultados en los algoritmos que vamos a implementar.
 
-### **2.2.1 Representación** {#2.2.1-representación}
+### **2.2.1 Representación**
 
 Para este problema se utilizará la representación entera pues considero(a parte de la binaria) es la que más se adecúa a nuestro problema, tenemos una lista de candidatos y cada posición puede ir cualquiera de los candidatos disponibles, por ejemplo, si el número de estaciones que debemos ubicar fuera 6 y hay 10 estaciones candidatas tendríamos:
 
@@ -584,7 +546,7 @@ Para este problema se utilizará la representación entera pues considero(a part
 * **Individuo:** En nuestro caso, la lista de cromosomas (estaciones) forman un individuo o configuración.  
 * **Población:** Lo conforman una cierta cantidad de individuos que vamos a determinar cuando ejecutemos los problemas y vayamos variando su tamaño para ver cómo se comportan los distintos algoritmos.
 
-### **2.2.2 Clases Nuevas** {#2.2.2-clases-nuevas}
+### **2.2.2 Clases Nuevas**
 
 **Clase Candidato**
 
@@ -607,29 +569,29 @@ Almacenará todos los individuos y rutas ya calculadas y como he mencionado ante
 
 **Es importante tener en cuenta que la elección de *frozenset* para las claves es porque permite almacenarlas sin tener en cuenta el orden, es igual clave(origen,destino) que clave(destino,origen).**
 
-## **2.3 Algoritmos Implementados** {#2.3-algoritmos-implementados}
+## **2.3 Algoritmos Implementados**
 
-### **2.3.1 Cambios en A Estrella** {#2.3.1-cambios-en-a-estrella}
+### **2.3.1 Cambios en A Estrella**
 
 En primer lugar, para trabajar con los algoritmos metaheurísticos se ha modificado el método **buscar()** en **A Estrella** de tal forma que ahora almacenamos el camino de la solución, si no ha encontrado solución le damos al nodo final un coste muy alto con el objetivo indicar que no tenemos la solución, así lo demás caminos que se calculen estén por debajo y esta sea descartada, y finalmente devolvemos el coste; si se ha encontrado el camino se devuelve el coste del último nodo encontrado, ese valor lo utilizaremos en la evaluación posterior de los individuos. Además en el método **calcular\_heurística()** hemos implementado la caché para evitar tener que recalcular rutas innecesariamente.
 
-### **2.3.2 Clase Búsqueda Metaheurística** {#2.3.2-clase-búsqueda-metaheurística}
+### **2.3.2 Clase Búsqueda Metaheurística**
 
 Esta es la clase abstracta base para todos los algoritmos metaheurísticos y en ella tenemos métodos como **ejecutar\_algoritmo(),  generar\_individuo() y evaluar\_individuo()** que son comunes a todos los algoritmos que vamos a implementar.
 
 El método **evaluar\_individuo(individuo,algoritmo)** es clave pues en él calculamos el valor de cada individuo/configuración según la función de evaluación que se nos ha indicado en el problema calculando tiempos, puntuaciones y utilizando la caché para las rutas. Finalmente devolvemos la puntuación del individuo en cuestión la cuál se almacena en caché.
 
-### **2.3.3 Búsqueda Aleatoria** {#2.3.3-búsqueda-aleatoria}
+### **2.3.3 Búsqueda Aleatoria**
 
 En el algoritmo de búsqueda aleatoria recibimos como parámetros los candidatos, el problema y el número de iteraciones(por defecto 3000 para no quedarnos cortos si no se proporciona). Lo ejecutamos de forma iterativa hasta llegar al máximo de iteraciones indicadas, en cada iteración generamos un individuo a partir de los candidatos disponibles, evaluamos al individuo y en función de si su puntuación es mejor que la actual lo asignamos como mejor o no, finalmente mostramos la puntuación del mejor individuo y acabamos. **Al principio utilizamos como mejor puntuación infinito para asegurarnos de que se acepte la evaluación del primer individuo y a partir de ahí, ir mejorando.** 
 
-### **2.3.4 Hill Climbing e ILS** {#2.3.4-hill-climbing-e-ils}
+### **2.3.4 Hill Climbing e ILS**
 
 Estos algoritmos los implementamos en la clase **BPE** donde en función de un parámetro de entrada ejecutamos **Hill Climbing ó ILS.** Con **Hill Climbing** vamos explorando los vecinos pero corremos el riesgo de quedarnos en un óptimo local, para cada iteración buscamos siempre el vecino con mejor puntuación por medio del método **obtener\_mejor(),** *éste método busca entre los vecinos que tenemos modificando uno de los cromosomas del individuo pues según nuestra representación, un vecino es aquél que comparte cromosomas con nosotros, por ejemplo, \[c2,c3,c4,c5\] y \[c2,c3,c4,c7\] son vecinos pues comparten al menos un cromosoma.*
 
 Para **ILS** seguimos el mismo procedimiento pero esta vez sólo terminamos cuando hemos llegado al límite de iteraciones, cada vez que no encontramos un vecino, perturbamos el individuo/configuración actual por medio del método **perturbar(),** *este método lo que hace es alterar nuestra configuración un número determinado de veces(1 por defecto), **en este método hemos utilizado copy() porque debido alguno razón que no he encontrado, fallaba en la asignación de la variable solución.***
 
-### **2.3.5 Algoritmo Genético** {#2.3.5-algoritmo-genético}
+### **2.3.5 Algoritmo Genético**
 
 *Es importante tener en cuenta que los métodos que se vayan mencionando se explicarán y detallarán más abajo.*
 
@@ -647,7 +609,7 @@ Al principio de la iteraciones mostramos el mejor individuo de la primer generac
 
 *Es importante resaltar que el mecanismo de sustitución utilizado ha sido el de **reemplazo** por la facilidad de implementación de este, el mecanismo de selección utilizado es **torneo** y los operadores de variación han sido **cruce uniforme y mutación** ya que nos permite obtener individuos con cromosomas más variados.*
 
-## **2.4 Evaluación Experimental** {#2.4-evaluación-experimental}
+## **2.4 Evaluación Experimental**
 
 Para la evaluación experimental utilizaré en cada tamaño de problema dos de los problemas con mayor número de estaciones candidatas y permitidas pues “supongo que es el que más tiempo puede llevar resolver”, la semilla utilizada es 3 y el tamaño de población y generaciones variará entre 50 y 100\.
 
@@ -771,11 +733,11 @@ Adjunto también a continuación la evolución de uno de los problemas Huge:
 
 Aquí podemos ver que la convergencia es más pausada, sobre todo en problemas más grandes pero llegados a cierto número de generaciones se vuelve más difícil mejorar el individuo que ya tenemos.
 
-## **2.5 Conclusiones** {#2.5-conclusiones}
+## **2.5 Conclusiones**
 
 En este trabajo he aprendido cómo los algoritmos evolutivos son una muy buena opción de cómo podemos resolver problemas en escenarios no deterministas y su aplicabilidad en problemas reales.  Los resultados obtenidos nos indican que este tipo de algoritmos(sobre todo el genético) aunque puedan suponer un gran coste en tiempo de ejecución, nos ayudan a encontrar la mejor solución.
 
-# **Recursos** {#recursos}
+# **Recursos**
 
 * Algorith-Visualizer. “Algorith-Visua.” *Algorithm Visualizer*, 2025 06 2025, https://algorithm-visualizer.org/. Accessed 28 June 2025\.  
 * BetaTech. “5 ALGORITMOS que DEBERÍAS (al menos) conocer.” *YouTube*, 25 June 2021, https://www.youtube.com/watch?v=eOow74IMTpc. Accessed 28 June 2025\.  
