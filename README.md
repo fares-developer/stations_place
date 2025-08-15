@@ -515,7 +515,8 @@ A continuación podemos ver un resumen de los resultados en lo que a coste se re
 | **Primero Mejor** |  | 510,36 ± 293,74 | 40,77 ± 17,04 | 98,47 ± 51,19 | 46,83 ± 23,14 |
 | **A Estrella** |  | 389,41 ± 173,17 | 38,83 ± 17,09 | 1618,33 ± 1450,78 | 820,97 ± 739,27 |
 
-![][image1]![][image2]
+![imagen1](images/imagen1.png)
+![imagen2](images/imagen2.png)
 
 **Para los gráficos he añadido el código al final de la libreta de la práctica.**
 
@@ -721,13 +722,14 @@ Para la evaluación experimental utilizaré en cada tamaño de problema dos de l
 | ILS | 332,49 | 22,29 | N/A | 7 |
 | BPE | 374,84 | 12,26 | N/A | 2 |
 
-A continuación voy a tomar como ejemplo para explicar el comportamiento de estos algoritmos el problema de tamaño L de la calle del Virrey Morcillo.![][image3]
+A continuación voy a tomar como ejemplo para explicar el comportamiento de estos algoritmos el problema de tamaño L de la calle del Virrey Morcillo.
+![imagen3](images/imagen3.png)
 
 Como podemos observar el algoritmo genético es el mejor encontrando la solución óptima aunque el fitness mejore más lentamente que los demás, en cambio el que peores resultados ofrece es el BPE pues se queda en un óptimo local y sólo explora a sus vecinos más directos(esto es un problema), el ILS intenta arreglar cambiando a vecinos más lejanos consiguiendo mejorar el fitness cuantas más iteraciones pero eso tampoco garantiza que vaya a encontrar el óptimo.
 
 Adjunto también a continuación la evolución de uno de los problemas Huge:
 
-![][image4]
+![imagen4](images/imagen4.png)
 
 **Para los gráficos he añadido el código al final de la libreta de la práctica.**
 
